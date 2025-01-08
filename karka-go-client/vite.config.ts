@@ -6,9 +6,9 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: 'autoUpdate', // Automatically updates the service worker
+      registerType: 'autoUpdate', 
       devOptions: {
-        enabled: true, // Enable PWA during development
+        enabled: true,
       },
       manifest: {
         name: 'hayde problems',
